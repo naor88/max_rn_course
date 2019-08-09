@@ -1,0 +1,8 @@
+0. Need to set the environment variable of ANDROID_HOME
+
+1. create the project base on react-native version 0.57.4:
+react-native init max_rn_course --version 0.57.4
+
+2. install the specific versions:
+npm i --save redux@3.7.2
+npm i --save react-redux@5.0.6

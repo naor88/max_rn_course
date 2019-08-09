@@ -1,0 +1,74 @@
+Udemy - React Native - The Practical Guide
+==========================================
+    1. Getting Started
+    -------------------
+        https://facebook.github.io/react-native/docs/getting-started
+
+        react-native init face_rn_course3 --version react-native@0.58.0
+
+        Lec *   : learn how to configure environments (hot reload by ctrl+m (android) or ctrl+r (ios))
+                : ios simulation can run just on mac.
+
+    2. Diving into the Basics
+    -------------------------
+        Lec 13: learn flexBox (view order)
+        Lec 14: More on flexBox (html page)
+        Lec 15: Button style with flexBox in mind
+        Lec 16: Button managing state
+        Lec 17: Create costume Component (ListItem ) and style it.
+        Lec 18: Time to practice
+        Lec 19: Not any element have onPress so we can wrap it with "Touchable" family
+        Lec 20: Add delete (remove from list) item when touch it.        
+        Lec 21: Replace the View with ScrollView
+        Lec 22: React-Native have component that render just what you see and not the all list. 
+                (better performance) - FlatList, also SectionList (like settings per section (2-dimensions))
+        Lec 23: Adding Static Image - use require for .jpg files hold the path (on native device) at the const
+        Lec 24: Using network image {uri: 'the_image_url'}
+        Lec 25: Adding a Modal (like popup that slide in and show image text and buttons for close or delete)
+        Lec 26: React vs React-Native (just use different component)
+        Lec 27: js supported features: jsRuntime different for ios and android not recommended to use those variables
+        Lec 28: Wrap Up
+    
+    3. Using Redux with React Native
+    ----------------------------------
+        Lec 1: Module Introduction (redux - state management)
+        Lec 2: Redux Overview (Brief)
+        Lec 4: Installing Redux and Creating a Basic Setup
+        Lec 5: Setting Up Actions ( and the action creators and export them via store/actions/index.js)
+        Lec 6: Setting Up the Reducer (places.js (root.js))
+        Lec 7: Creating the Store (Wrap the app with the redux Provider component (src/index.js)) and add store/ConfigureStore.js
+        Lec 8: Connecting React Native to Redux
+        Lec 9: Wrap Up
+    
+    4. Debugging React Native Apps
+    -----------------------------------
+        Lec 1: Module Introduction (console.log, better debug, debug redux)
+        Lec 2: Using the Remote JavaScript Debugging && console.log
+        Lec 3: Debugging with Breakpoints
+        Lec 4: Debugging+++ with React Native Debugger (https://github.com/jhen0409/react-native-debugger/releases)
+        Lec 5: Debugging Redux
+        Lec 6: Wrap Up
+
+    5. Linking and Using Third Party Libraries
+    ----------------------------------------------
+        Lec 1: Module Introduction
+        Lec 2: Installing Libraries
+        Lec 4: Linking Libraries on iOS
+        Lec 5: Linking Libraries on Android
+        Lec 6: Using Library Features Adding Icons
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
