@@ -15,11 +15,11 @@ const placeDetail = props => {
     );
   }
   return (
-    <Modal
-      onRequestClose={props.onModalClosed}
-      visible={props.selectedPlace !== null}
-      animationType="slide"
-    >
+    // <Modal
+    //   onRequestClose={props.onModalClosed}
+    //   visible={props.selectedPlace !== null}
+    //   animationType="slide"
+    // >
       <View style={styles.modalContainer}>
         {modalContent}
         <View>
@@ -27,10 +27,10 @@ const placeDetail = props => {
           <TouchableOpacity onPress={props.onItemDeleted}>
             <Icon size={30} color="red" name="ios-trash" />
           </TouchableOpacity>
-          <Button title="Close" onPress={props.onModalClosed} />
+          {/* <Button title="Close" onPress={props.onModalClosed} /> */}
         </View>
       </View>
-    </Modal>
+    // </Modal>
   );
 };
 
