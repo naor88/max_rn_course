@@ -3,8 +3,9 @@ import { View, Text } from 'react-native';
 import { connect } from 'react-redux';
 
 import PlaceList from '../../components/PlaceList/PlaceList';
+import PageWithSideBar from '../PageWithSideBar/PageWithSideBar';
 
-class FindPlaceScreen extends Component {
+class FindPlaceScreen extends PageWithSideBar {
     onItemSelectedHandler = key => {
         const selectedPlace = this.props.places.find(i=>i.key==key);
         this.props.navigator.push({

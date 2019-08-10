@@ -4,8 +4,9 @@ import { connect } from 'react-redux';
 
 import { addPlace } from '../../store/actions/index'
 import PlaceInput from '../../components/PlaceInput/PlaceInput';
+import PageWithSideBar from '../PageWithSideBar/PageWithSideBar';
+class SharePlaceScreen extends PageWithSideBar {
 
-class SharePlaceScreen extends Component {
     placeAddedHandler = placeName => {
         this.props.onAddPlace(placeName);
     }
