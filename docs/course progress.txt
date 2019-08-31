@@ -107,6 +107,7 @@ Udemy - React Native - The Practical Guide
         Lec 27: Adjusting Styles Dynamically (to changing Width  Height)
         Lec 28: A Better Responsive Solution
         Lec 29: Bug Fix Centering with Margins
+        Lec 30: Cleaning Up Dimensions Listeners
 
 
 

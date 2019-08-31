@@ -23,11 +23,17 @@ class AuthScreen extends Component {
 
     constructor(props){
         super(props);
-        Dimensions.addEventListener("change", (dims) => {
-            // console.log(dims);
-            // alert(dims.window.height);
-            this.setState({windowHigh: dims.window.height})
-        });
+        Dimensions.addEventListener("change", this.listenDimensionChange);
+    }
+
+    componentWillUnmount(){
+        Dimensions.removeEventListener("change", this.listenDimensionChange);
+    }
+
+    listenDimensionChange = dims => {
+        // console.log(dims);
+        // alert(dims.window.height);
+        this.setState({windowHigh: dims.window.height});
     }
 
     loginHandler = () => {
