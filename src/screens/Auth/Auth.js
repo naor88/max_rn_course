@@ -39,11 +39,11 @@ class AuthScreen extends Component {
         let styles = buildStyles(this.state.windowHigh);
         if(this.state.windowHigh > 500){
             headingText = (
-                <HeadingText>
-                    <MainText>
+                <MainText>
+                    <HeadingText>
                         Please Login
-                    </MainText>
-                </HeadingText>
+                    </HeadingText>
+                </MainText>
             );            
         }
 
