@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text, Dimensions, StyleSheet, TouchableOpacity } from 'react-native';
+import { View, Text, Dimensions, StyleSheet, TouchableOpacity, Platform } from 'react-native';
 
 import ListItem from '../../components/ListItem/ListItem';
 import logoutImage from '../../assets/logout.jpg';
@@ -8,6 +8,7 @@ import Icon from 'react-native-vector-icons/Ionicons';
 
 class SideDrawer extends Component {
     render(){
+        let iconPrefix = Platform.OS === 'ios' ? 'ios' : 'md';
         return (
             <View style={[
                 styles.container,
@@ -16,7 +17,7 @@ class SideDrawer extends Component {
 
                 <TouchableOpacity onPress={() => alert('need logout implementation')}>
                     <View style={styles.drawerItem}>
-                        <Icon name="ios-log-out" size={30} color="#aaa" style={styles.drawerItemIcon}/>
+                        <Icon name={`${iconPrefix}-log-out`} size={30} color="#aaa" style={styles.drawerItemIcon}/>
                         <Text>Sign Out</Text>
                     </View>
                 </TouchableOpacity>

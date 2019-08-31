@@ -1,13 +1,19 @@
 import React from 'react';
-import { TouchableHighlight, Text, View, StyleSheet } from 'react-native';
+import { TouchableHighlight, TouchableNativeFeedback, Text, View, StyleSheet, Platform } from 'react-native';
 
-const customButton = props => (
-    <TouchableHighlight onPress={props.onPress}>
-        <View style={[styles.button, {backgroundColor: props.color}]}>
-            <Text style={styles.text}>{ props.children }</Text>
-        </View>
-    </TouchableHighlight>
-);
+const customButton = props => {
+    let CustomTouchComponent = TouchableHighlight;
+    if(Platform.OS === "android"){
+        CustomTouchComponent = TouchableNativeFeedback;
+    }
+    return (
+        <CustomTouchComponent onPress={props.onPress}>
+            <View style={[styles.button, {backgroundColor: props.color}]}>
+                <Text style={styles.text}>{ props.children }</Text>
+            </View>
+        </CustomTouchComponent>
+    );
+};
 
 const styles = StyleSheet.create({
     button: {

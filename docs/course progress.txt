@@ -96,7 +96,8 @@ Udemy - React Native - The Practical Guide
         Lec 16: Styling the Side Drawer
         Lec 17: Quick Bug Fix PlaceInput Component
         Lec 18: Intro Cross Platform Styles & Responsiveness
-
+        Lec 19: Cross-Platform Styling Made Easy! if(Platform.OS === "android") if(Platform.OS === "ios")
+        Lec 20: Using the Platform API
 
 
 
