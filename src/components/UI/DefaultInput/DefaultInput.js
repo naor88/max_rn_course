@@ -7,6 +7,7 @@ const defaultInput = props => (
     <TextInput 
         // placeholder = {props.placeholder}
         underlineColorAndroid = "transparent"
+        placeholderTextColor="#FFF"
         {...props}
         style = {[styles.input, props.style]} // list of styles object make marge by priority
     />

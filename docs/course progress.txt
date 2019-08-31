@@ -98,6 +98,13 @@ Udemy - React Native - The Practical Guide
         Lec 18: Intro Cross Platform Styles & Responsiveness
         Lec 19: Cross-Platform Styling Made Easy! if(Platform.OS === "android") if(Platform.OS === "ios")
         Lec 20: Using the Platform API
+        Lec 21: Loading Different Icons for Different Platforms
+        Lec 22: Using Different Entry Points (into the App)
+        Lec 23: Cross-Platform UI Libraries (https://nativebase.io/)
+        Lec 24: The Responsive Styling Problem
+        Lec 25: Responsive Design Solutions
+        Lec 26: Using the Dimensions API
+stop at start of --->        Lec 27: Adjusting Styles Dynamically (to changing Width  Height)
 
 
 
