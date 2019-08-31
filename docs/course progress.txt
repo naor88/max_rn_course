@@ -104,7 +104,9 @@ Udemy - React Native - The Practical Guide
         Lec 24: The Responsive Styling Problem
         Lec 25: Responsive Design Solutions
         Lec 26: Using the Dimensions API
-stop at start of --->        Lec 27: Adjusting Styles Dynamically (to changing Width  Height)
+        Lec 27: Adjusting Styles Dynamically (to changing Width  Height)
+        Lec 28: A Better Responsive Solution
+        Lec 29: Bug Fix Centering with Margins
 
 
 
