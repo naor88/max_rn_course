@@ -108,6 +108,10 @@ Udemy - React Native - The Practical Guide
         Lec 28: A Better Responsive Solution
         Lec 29: Bug Fix Centering with Margins
         Lec 30: Cleaning Up Dimensions Listeners
+        Lec 32: Styling Navigation Items (react-native-navigation) (https://wix.github.io/react-native-navigation/#/docs/styling)
+        Lec 33: Preparing the App for Animations
+
+stop here ->>>        Lec 34: Using the Animated API
 
 
 

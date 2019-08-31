@@ -14,6 +14,10 @@ import PickLocation from '../../components/PickLocation/PickLocation';
 
 class SharePlaceScreen extends PageWithSideBar {
 
+    static navigatorStyle = {
+        navBarButtonColor: "green"
+    }
+
     state = {
         placeName: ""
     };
