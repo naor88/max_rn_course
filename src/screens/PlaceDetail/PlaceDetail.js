@@ -11,8 +11,8 @@ class PlaceDetail extends Component {
   onPlaceDeletedHandler = () => {
     this.props.onItemDeleted(this.props.selectedPlace.key);
     this.props.navigator.pop({
-      animated: true,
-      animationType: 'fade'
+      // animated: true,
+      // animationType: 'fade'
     });
   }
 

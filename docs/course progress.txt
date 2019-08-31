@@ -59,7 +59,43 @@ Udemy - React Native - The Practical Guide
 
 
 
+    6. Navigation in React Native Apps
+    ------------------------------------
+        1. Module Introduction
+        2. Navigation in Web Apps vs Native Apps
+        3. Exploring Native Navigation Solutions
+        5. Adding React Native Navigation to iOS
+        6. Adding React Native Navigation to Android
+        7. Finishing the Library Setup
+        8. Registering and Rendering a Screen
+        9. Adding a Tabs Screen (Tabs Navigation)
+        10. Adding Icons to Tabs
+        11. Connecting Screens to Redux
+        12. Updating Redux
+        13. Pushing Pages (Navigating Forwards)
+        14. Popping Pages (Navigating Backwards)
+        15. More Navigator Methods
+        16. Adding a Side Drawer
+        17. Using Navigation Events & Toggling the Drawer
+        18. Finishing the Drawer
+        19. Wrap Up
 
+    7. Styling & Animating React Native Apps (Correctly)
+    --------------------------------------------------------
+        Lec 1: Module Introduction
+        Lec 2: Using StyleSheet vs Normal JS Objects ( make validate, convert to native code better) [ https://github.com/vhpoet/react-native-styling-cheat-sheet ]
+        Lec 3: Vanilla CS vs React Native Styles
+        Lec 4: Flexbox in Action
+        Lec 9: Cascading Text Styles
+        Lec 10: Adding a Background Image (https://facebook.github.io/react-native/docs/imagebackground)
+        Lec 11: Creating a Re-Usable Custom Button
+        Lec 12: Editing the Share Place Screen
+        Lec 13: Styling & Splitting the Share Place Screen
+        Lec 14: Finishing the Share Place Screen
+        Lec 15: Your Challenge!
+        Lec 16: Styling the Side Drawer
+        Lec 17: Quick Bug Fix PlaceInput Component
+        Lec 18: Intro Cross Platform Styles & Responsiveness
 
 
 
