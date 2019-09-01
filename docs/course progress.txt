@@ -110,8 +110,9 @@ Udemy - React Native - The Practical Guide
         Lec 30: Cleaning Up Dimensions Listeners
         Lec 32: Styling Navigation Items (react-native-navigation) (https://wix.github.io/react-native-navigation/#/docs/styling)
         Lec 33: Preparing the App for Animations
-
-stop here ->>>        Lec 34: Using the Animated API
+        Lec 34: Using the Animated API (https://facebook.github.io/react-native/docs/animations)
+        Lec 36: [OPTIONAL] Assignment Solution
+        Lec 37: Animations Summary (parallel)
 
 
 
