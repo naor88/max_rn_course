@@ -113,6 +113,14 @@ Udemy - React Native - The Practical Guide
         Lec 34: Using the Animated API (https://facebook.github.io/react-native/docs/animations)
         Lec 36: [OPTIONAL] Assignment Solution
         Lec 37: Animations Summary (parallel)
+        Lec 38: Wrap Up
+    
+    8. Handling User Input
+    -----------------------------------
+        Lec 1: Module Introduction
+        Lec 2: Managing Input Control State
+        Lec 3: Adding Custom Validation Logic
+        Lec 4: Using the Validation State
 
 
 

@@ -6,11 +6,19 @@ const customButton = props => {
     if(Platform.OS === "android"){
         CustomTouchComponent = TouchableNativeFeedback;
     }
+    const viewOnly = (
+        <View style={[styles.button, {backgroundColor: props.color}, props.disabled ? styles.disabled : null]}>
+            <Text style={[styles.text, props.disabled ? styles.disabledText : null]}>{ props.children }</Text>
+        </View>
+    );
+
+    if(props.disabled){
+        return viewOnly;
+    }
+
     return (
         <CustomTouchComponent onPress={props.onPress}>
-            <View style={[styles.button, {backgroundColor: props.color}]}>
-                <Text style={styles.text}>{ props.children }</Text>
-            </View>
+            {viewOnly}
         </CustomTouchComponent>
     );
 };
@@ -23,8 +31,15 @@ const styles = StyleSheet.create({
         borderWidth: 1,
         borderColor: "white"
     },
+    disabled: {
+        backgroundColor: "#eee",
+        borderColor: "#aaa"
+    },
     text: {
         color: "white"
+    },
+    disabledText: {
+        color: "#aaa"
     }
 });
 
