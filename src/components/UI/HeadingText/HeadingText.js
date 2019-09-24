@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
     textHeading: {
         fontSize: 28,
         fontWeight: "bold",
-        color: "black"
+        color: "black",        
     }
 });
 

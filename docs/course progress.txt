@@ -121,7 +121,16 @@ Udemy - React Native - The Practical Guide
         Lec 2: Managing Input Control State
         Lec 3: Adding Custom Validation Logic
         Lec 4: Using the Validation State
-
+        Lec 5: Dispatching an Auth Action
+        Lec 6: Switching Form (Auth) Modes
+        Lec 7: Configuring Text Input Components
+        Lec 8: Handling the Soft Keyboard
+        Lec 10: Wrap Up
+    
+    9. Using Native Device Features - Maps, Camera & Image Gallery
+    -----------------------------------------------------------------
+        Lec 1: Module Introduction
+        todo -> Lec 3: Installing react-native-maps
 
 
 

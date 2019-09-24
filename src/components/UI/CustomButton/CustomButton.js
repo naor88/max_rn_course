@@ -7,7 +7,7 @@ const customButton = props => {
         CustomTouchComponent = TouchableNativeFeedback;
     }
     const viewOnly = (
-        <View style={[styles.button, {backgroundColor: props.color}, props.disabled ? styles.disabled : null]}>
+        <View style={[styles.button, {width: props.width}, {backgroundColor: props.color}, props.disabled ? styles.disabled : null]}>
             <Text style={[styles.text, props.disabled ? styles.disabledText : null]}>{ props.children }</Text>
         </View>
     );
